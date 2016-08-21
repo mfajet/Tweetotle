@@ -1,0 +1,33 @@
+{
+  "name": "tweetotle",
+  "version": "1.0.0",
+  "description": "Node script for ordering chipotle through a tweet saying \"I want Chiptole!\"",
+  "main": "server.js",
+  "dependencies": {
+    "@google/maps": "^0.1.0",
+    "chipsandguac": "^1.1.1",
+    "express": "^4.14.0",
+    "twitter": "^1.4.0",
+    "twitter-node-client": "^0.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfajet/Tweetotle.git"
+  },
+  "keywords": [
+    "Chipotle",
+    "Twitter",
+    "Node"
+  ],
+  "author": "Mark Fajet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfajet/Tweetotle/issues"
+  },
+  "homepage": "https://github.com/mfajet/Tweetotle#readme"
+}
